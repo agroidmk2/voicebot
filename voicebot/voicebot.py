@@ -53,7 +53,7 @@ def main():
         pagge_tile = "음성 비서 프로그램",
         layout="wide")
     
-    if "chat" no in st.session_state:
+    if "chat" not in st.session_state:
         st.session_state["chat"] = []
     
     if "messages" not in st.session_state:
