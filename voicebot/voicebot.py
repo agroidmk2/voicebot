@@ -50,7 +50,7 @@ def TTS(response):
 
 def main():
     st.set_page_config(
-        pagge_tile = "음성 비서 프로그램",
+        page_title="음성 비서 프로그램",
         layout="wide")
     
     if "chat" not in st.session_state:
