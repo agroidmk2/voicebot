@@ -3,7 +3,7 @@ import streamlit as st
 
 from audiorecorder import audiorecorder
 
-import opentracing
+import openai
 
 import os
 
